@@ -52,6 +52,15 @@ const myArray = ["beebah", "wande", 234, false, { name: "dupe" }, [2, 4, 6]];
 console.log(myArray);
 
 
+const number = parseInt(prompt("enter any number"));
+if (number % 2 === 0) {
+    alert (`${number} is even`);
+}   
+ else{
+        alert (`${number} is odd`) ;
+    }
+
+
 
 
 
