@@ -51,14 +51,122 @@ console.log(student);
 const myArray = ["beebah", "wande", 234, false, { name: "dupe" }, [2, 4, 6]];
 console.log(myArray);
 
+//Arithemetic Operator
+let a = 46;
+let b = 73;
 
-const number = parseInt(prompt("enter any number"));
-if (number % 2 === 0) {
-    alert (`${number} is even`);
-}   
- else{
-        alert (`${number} is odd`) ;
-    }
+// // Addition
+let sum = a + b
+console.log(sum);
+
+// // subtraction
+let subb = b-a
+console.log(subb);
+
+// // multiplication
+let mullt = a*b
+console.log(mullt);
+
+// // division
+let div = a/b
+console.log(div);
+
+// //modulus
+let modul = a%b
+console.log(modul);
+
+// //Assignment Operators
+let c = 45
+
+// // comparison operators
+ const d = "wendy";
+ const e = "wendy";
+ const f = "toyosi";
+ const g = 23;
+ const h = 47;
+ const i = 23;
+ const j = "23";
+
+ //Equals to
+ console.log(d == e);
+
+ //Greater Than
+ console.log(g > h);
+ 
+ //Less Than
+ console.log(g < h);
+
+ // Greater than equals to
+ console.log(g >= i);
+
+//Less than equals to
+console.log(g <= i)
+
+//Not Equals To
+console.log(g != i);
+console.log(g != j);
+
+//Strictly Equals To
+console.log(i === j);
+console.log(i);
+console.log(j);
+
+//Logical Operator
+ Logical OR 
+ Logical NOT !
+ Logiacl AND &
+
+  //Unary Operator
+  // Increment ++
+// Decrement --
+const k = 5;
+k++;
+console.log(k);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
