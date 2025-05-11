@@ -161,94 +161,43 @@ console.log(p);
 //};
 
 // BMI ASSIGNMENT
-let weight = parseFloat(prompt("Enter your weight"))
-let height = parseFloat(prompt("Enter your height"))
-let BMI = weight / (height * height)
-if (BMI < 18.5){
-    alert ("You are underweight")
+//let weight = parseFloat(prompt("Enter your weight"))
+//let height = parseFloat(prompt("Enter your height"))
+//let BMI = weight / (height * height)
+//if (BMI < 18.5){
+  //  alert ("You are underweight")
+//}
+//if (BMI >= 18.5 && BMI <= 24.9){
+  //  alert ("You have a normal weight")
+//}
+//if (BMI >= 25.0 && BMI <= 29.9){
+  //  alert ("You are overweight")
+//}
+//if (BMI >= 30.0){
+  //  alert ("You are Obese")
+//}
+//if (BMI < 18.5){
+    //alert ("You are underweight")
+//}
+//if (isNaN(height) || isNaN(weight)){
+    //alert ("And you think you are making")
+//};
+
+
+//Ticket Price Baswd On Age
+let Age = parseFloat(prompt("Enter your Age"))
+if (Age >= 0 && Age <= 12) {
+    alert("Ticket price is 5")
 }
-if (BMI >= 18.5 && BMI <= 24.9){
-    alert ("You have a normal weight")
+else if (Age >= 13 && Age <= 18){
+    alert("Ticket Price is 10")
 }
-if (BMI >= 25.0 && BMI <= 29.9){
-    alert ("You are overweight")
+else if (Age >= 19 && Age < 60){
+    alert("Ticket Price is 20")
 }
-if (BMI >= 30.0){
-    alert ("You are Obese")
-}
-if (BMI < 18.5){
-    alert ("You are underweight")
-}
-if (isNaN(height) || isNaN(weight)){
-    alert ("And you think you are making")
+else if (Age < 0){
+    alert("Not a valid Age")
 };
-
-let weight = parseFloat(prompt("Enter your weight"))
-let height = parseFloat(prompt("Enter your height"))
-let BMI = weight / (height * height)
-if (BMI < 18.5){
-    alert ("You are underweight")
-}
-if (BMI >= 18.5 && BMI <= 24.9){
-    alert ("You have a normal weight")
-}
-if (BMI >= 25.0 && BMI <= 29.9){
-    alert ("You are overweight")
-}
-if (BMI >= 30.0){
-    alert ("You are Obese")
-}
-if (BMI < 18.5){
-    alert ("You are underweight")
-}
-if (isNaN(height) || isNaN(weight)){
-    alert ("And you think you are making")
-};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
