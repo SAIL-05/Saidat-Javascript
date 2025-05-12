@@ -185,20 +185,41 @@ console.log(p);
 
 
 //Ticket Price Baswd On Age
-let Age = parseFloat(prompt("Enter your Age"))
-if (Age >= 0 && Age <= 12) {
-    alert("Ticket price is 5")
+//let Age = parseFloat(prompt("Enter your Age"))
+//if (Age >= 0 && Age <= 12) {
+    //alert("Ticket price is 5")
+//}
+//else if (Age >= 13 && Age <= 18){
+  //  alert("Ticket Price is 10")
+//}
+//else if (Age >= 19 && Age < 60){
+  //  alert("Ticket Price is 20")
+//}
+//else if (Age < 0){
+  //  alert("Not a valid Age")
+//};
+
+// Discount Based On Budget
+//let Price = parseFloat(prompt("Enter Your Price"))
+//if (Price >= 50){
+   // alert("You have gotten a discount of 20")
+//}
+//else if (Price >= 100){
+    //alert("You have gotten a discount of 10")
+//}
+//else if (Price >= 0 && Price <= 49){
+    //alert("You have gotten a discount of 0")
+//};
+
+//If a year is a leap year
+let nDays = parseInt(prompt("Enter the Number Of Days"))
+if (nDays = 366){
+    alert("yeah! It's A Leap Year")
 }
-else if (Age >= 13 && Age <= 18){
-    alert("Ticket Price is 10")
+else if (nDays = 365){
+    alert("Okay! It's A Normal Year")
 }
-else if (Age >= 19 && Age < 60){
-    alert("Ticket Price is 20")
+else if (nDays != 365 || nDays != 366){
+    alert("How?? It's not even up to A Year")
 }
-else if (Age < 0){
-    alert("Not a valid Age")
-};
-
-
-
-
+else if (nDays < 365)
