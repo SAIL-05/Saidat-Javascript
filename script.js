@@ -212,14 +212,20 @@ console.log(p);
 //};
 
 //If a year is a leap year
-let nDays = parseInt(prompt("Enter the Number Of Days"))
-if (nDays = 366){
-    alert("yeah! It's A Leap Year")
-}
-else if (nDays = 365){
-    alert("Okay! It's A Normal Year")
-}
-else if (nDays != 365 || nDays != 366){
-    alert("How?? It's not even up to A Year")
-}
-else if (nDays < 365)
+//let nDays = parseInt(prompt("Enter the Number Of Days"))
+//if (nDays === 366){
+  //  alert("yeah! It's A Leap Year")
+//}
+//else if (nDays === 365){
+  //  alert("Okay! It's A Normal Year")
+//}
+//else if (nDays > 366){
+  //  alert("More Than A Year Fam!")
+//}
+//else if (nDays < 365 ) {
+  //  alert("How?? It's not even up to A Year")
+//};
+
+//time of the day
+let time = parseInt(prompt("What Say's The Time"))
+if (time <=  )
