@@ -227,5 +227,13 @@ console.log(p);
 //};
 
 //time of the day
-let time = parseInt(prompt("What Say's The Time"))
-if (time <=  )
+//let time = parseInt(prompt("What Say's The Time"))
+//if (time <=  )
+
+
+
+//DOM 
+getElementsWithClass
+getElementWithId
+querySelector
+querySelectAll
