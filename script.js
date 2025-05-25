@@ -237,3 +237,5 @@ getElementsWithClass
 getElementWithId
 querySelector
 querySelectAll
+PRIMITIVE Data
+NON PRIMITIVE Data
