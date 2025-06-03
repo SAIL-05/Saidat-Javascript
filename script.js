@@ -233,9 +233,14 @@ console.log(p);
 
 
 //DOM 
-getElementsWithClass
-getElementWithId
-querySelector
-querySelectAll
+//getElementsWithClass
+//getElementWithId
+//querySelector
+//querySelectAll
+
+//Asynchronoush javascript
+console.log("https://jsonplaceholder.typicode.com/users")
+fetch("https://jsonplaceholder.typicode.com/users").then(hay => hay.json()).then(data => console.log(data))
 
 
+const (name,class,a )
